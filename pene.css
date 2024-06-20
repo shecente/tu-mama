@@ -1,0 +1,57 @@
+.pene{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+    
+
+}
+.imagen-centrada {
+    display: block; /* Permite centrar la imagen */ /* Espacio superior */
+}
+.background {
+    background-color: rgb(219, 153, 83)
+}
+
+.contenido {
+    text-align: center;
+    width: 55%;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+     
+}
+img {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Auto margins horizontally center the image */
+    width: auto;
+    height: 80vh;
+    max-width: calc(100% - 500px); 
+    object-fit: cover;  
+    background-color: rgb(117, 82, 63);
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.right-aligned-image {
+    position:fixed;
+    top: 110px;
+    left: 600px;
+    margin: 0;
+    width: auto;
+    height: 80vh;
+    max-width: calc(100% - 500px); 
+    object-fit: cover; 
+    object-position: top; 
+    background-color: rgb(255, 24, 24);
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
